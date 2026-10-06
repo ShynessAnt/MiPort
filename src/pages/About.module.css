@@ -1,0 +1,35 @@
+.page {
+  width: min(100%, var(--max-text));
+  display: grid;
+  gap: 2rem;
+}
+
+.lead {
+  color: var(--muted);
+}
+
+.list {
+  display: grid;
+  gap: 0.75rem;
+  padding-left: 1.1rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.timeline {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  border-left: 1px solid var(--border);
+  padding-left: 1rem;
+}
+
+.year {
+  color: var(--accent);
+  font-weight: 650;
+  font-size: 0.9rem;
+}

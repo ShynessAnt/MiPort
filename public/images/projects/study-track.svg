@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <defs>
+    <linearGradient id="bgStudy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accentStudy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="16" fill="url(#bgStudy)"/>
+  <!-- Mobile phone mockup center -->
+  <rect x="360" y="45" width="240" height="450" rx="32" fill="#020617" stroke="#334155" stroke-width="4"/>
+  <rect x="440" y="58" width="80" height="14" rx="7" fill="#1e293b"/>
+  <!-- Screen content -->
+  <rect x="380" y="85" width="200" height="380" rx="16" fill="#0f172a"/>
+  <rect x="400" y="110" width="120" height="16" rx="4" fill="#f8fafc"/>
+  <rect x="400" y="135" width="80" height="10" rx="3" fill="#64748b"/>
+  <!-- Progress rings or cards -->
+  <rect x="400" y="165" width="160" height="75" rx="10" fill="url(#accentStudy)"/>
+  <rect x="415" y="180" width="80" height="12" rx="3" fill="#ffffff"/>
+  <rect x="415" y="200" width="130" height="8" rx="2" fill="#e0e7ff"/>
+  <!-- Stats bars -->
+  <rect x="400" y="260" width="160" height="100" rx="10" fill="#1e293b"/>
+  <rect x="415" y="320" width="14" height="30" rx="3" fill="#6366f1"/>
+  <rect x="435" y="300" width="14" height="50" rx="3" fill="#818cf8"/>
+  <rect x="455" y="285" width="14" height="65" rx="3" fill="#a855f7"/>
+  <rect x="475" y="310" width="14" height="40" rx="3" fill="#6366f1"/>
+  <rect x="495" y="290" width="14" height="60" rx="3" fill="#a855f7"/>
+  <rect x="515" y="325" width="14" height="25" rx="3" fill="#818cf8"/>
+  <rect x="535" y="295" width="14" height="55" rx="3" fill="#c084fc"/>
+  <!-- Recent list -->
+  <rect x="400" y="375" width="160" height="35" rx="8" fill="#1e293b"/>
+  <rect x="400" y="420" width="160" height="35" rx="8" fill="#1e293b"/>
+</svg>

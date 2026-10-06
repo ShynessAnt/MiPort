@@ -1,0 +1,38 @@
+.container {
+  width: min(100%, var(--max-text));
+  margin: 4rem auto;
+  text-align: center;
+  display: grid;
+  gap: 1.25rem;
+  place-items: center;
+}
+
+.code {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.lead {
+  color: var(--muted);
+  max-width: 32rem;
+}
+
+.homeLink {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color var(--transition);
+}
+
+.homeLink:hover {
+  background: var(--accent-hover);
+  color: var(--on-accent);
+}

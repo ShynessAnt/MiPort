@@ -1,0 +1,25 @@
+.header {
+  width: min(100%, var(--max-text));
+  margin-bottom: 1.25rem;
+}
+
+.lead {
+  color: var(--muted);
+}
+
+.controls {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.empty {
+  color: var(--muted);
+  margin: 2rem 0;
+}

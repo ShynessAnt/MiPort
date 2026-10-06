@@ -1,0 +1,19 @@
+.header {
+  width: min(100%, var(--max-text));
+  margin-bottom: 1.25rem;
+}
+
+.lead {
+  color: var(--muted);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.empty {
+  color: var(--muted);
+}

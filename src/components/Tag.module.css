@@ -1,0 +1,22 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  text-decoration: none;
+  background: var(--surface);
+}
+
+button.tag {
+  color: var(--muted);
+}
+
+.tag:hover,
+.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
