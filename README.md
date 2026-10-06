@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
 # MiPort
 
 Portfolio personal en React, TypeScript y Vite. Incluye páginas de presentación, proyectos, artículos y contacto, además de un fondo de partículas WebGL interactivo con el cursor.
@@ -8,11 +6,11 @@ Portfolio personal en React, TypeScript y Vite. Incluye páginas de presentació
 
 - Diseño responsive y accesible.
 - Tema claro y oscuro con persistencia en el navegador.
--Listado y búsqueda de artículos.
--Detalle de artículos y proyectos.
--Formulario de contacto con validación.
--Fondo de partículas OGL con movimiento al pasar el cursor.
--Rutas con React Router DOM.
+- Listado y búsqueda de artículos.
+- Detalle de artículos y proyectos.
+- Formulario de contacto con validación.
+- Fondo de partículas OGL con movimiento al pasar el cursor.
+- Rutas con React Router DOM.
 
 ## Comandos
 
@@ -31,4 +29,3 @@ npm run lint
 - OGL
 - React Router DOM
 - ESLint
-=======
